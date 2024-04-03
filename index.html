@@ -1,44 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>DY RONGRATH - PORTFOLIO</title>
-</head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <p class="logo"><span>R</span>ong<span>R</span>ath.</p>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>WEB Developer</p>
-                <h1>Hi, I'm <span>Rongrath</span><br>Dy From Cambodia.</h1>
-            </div>
-        </div>
-    </div>
-<!---------------------- About ---------------------------->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="https://placehold.co/400x500">
-                </div>
-                <div class="about-col-2">
-                    <h1>About Me</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>DY RONGRATH - PORTFOLIO</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <p class="logo"><span>R</span>ong<span>R</span>ath.</p>
+                    <ul>
+                        <li><a href="home">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>WEB Developer</p>
+                    <h1>Hi, I'm <span>Rongrath</span><br>Dy From Cambodia.</h1>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+
+        <!-- ----------------------About---------------------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://placehold.co/200x200">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Hic unde molestias nisi repellendus sunt
+                            natus, quis voluptates dolore libero eaque vero
+                            veritatis totam iure molestiae quasi officiis
+                            explicabo tempore animi.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"
+                                onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"
+                                onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"
+                                onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App
+                                    interface</li>
+                                <li><span>Web Development</span><br>Web app
+                                    Development</li>
+                                <li><span>App Development</span><br>Buidling
+                                    Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>UI/UX Design
+                                    Training at CamCyber</li>
+                                <li><span>2022-2023</span><br>Team lead at
+                                    CamCyber</li>
+                                <li><span>2023 - 2024</span><br>Internship at
+                                    CamCyber</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>UI/UX Desgign Training
+                                    at CamCyber</li>
+                                <li><span>2020</span><br>Bachelor Degree from
+                                    PCK</li>
+                                <li><span>2025</span><br>Engineering Degree from
+                                    ITC</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------Services---------------------- -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quo exercitationem autem itaque perspiciatis
+                            possimus corporis neque tempora, molestias ipsam
+                            quis. Quas aperiam porro mollitia beatae sunt
+                            aliquid, sint qui quaerat.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quo exercitationem autem itaque perspiciatis
+                            possimus corporis neque tempora, molestias ipsam
+                            quis. Quas aperiam porro mollitia beatae sunt
+                            aliquid, sint qui quaerat.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quo exercitationem autem itaque perspiciatis
+                            possimus corporis neque tempora, molestias ipsam
+                            quis. Quas aperiam porro mollitia beatae sunt
+                            aliquid, sint qui quaerat.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove( "active-link" );
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove( "active-tab" );
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    </body>
 </html>
